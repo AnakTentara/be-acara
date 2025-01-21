@@ -1,5 +1,4 @@
 import swaggerAutogen from "swagger-autogen";
-import { identifierToKeywordKind } from "typescript";
 
 const doc = {
     info: {
@@ -13,7 +12,7 @@ const doc = {
             description: "Local Server"
         },
         {
-            url: "https://wpu.haikaldev.my.id/api",
+            url: "https://subs.haikaldev.my.id/api",
             description: "Deploy Server"
         },
     ],
