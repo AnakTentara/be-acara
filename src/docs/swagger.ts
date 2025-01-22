@@ -1,4 +1,5 @@
 import swaggerAutogen from "swagger-autogen";
+import { register } from "ts-node";
 
 const doc = {
     info: {
@@ -28,6 +29,16 @@ const doc = {
                 identifier: "Haikaru",
                 password: "1234",
             },
+            registerRequest: {
+                fullName: "Haikal Mabrur",
+                username: "Haikaru",
+                email: "me@haikaldev.my.id",
+                password: "1234",
+                confirmPassword: "1234",
+            },
+            ActivationRequest: {
+                code: "abcdef",
+            }
         },
     },
 };
