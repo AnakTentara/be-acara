@@ -7,12 +7,12 @@
   },
   "servers": [
     {
-      "url": "http://localhost:3000/api",
-      "description": "Local Server"
-    },
-    {
       "url": "https://subs.haikaldev.my.id/api",
       "description": "Deploy Server"
+    },
+    {
+      "url": "http://localhost:3000/api",
+      "description": "Local Server"
     }
   ],
   "paths": {

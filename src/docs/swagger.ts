@@ -1,5 +1,4 @@
 import swaggerAutogen from "swagger-autogen";
-import { register } from "ts-node";
 
 const doc = {
     info: {
@@ -9,12 +8,12 @@ const doc = {
     },
     servers: [
         {
-            url: "http://localhost:3000/api",
-            description: "Local Server"
-        },
-        {
             url: "https://subs.haikaldev.my.id/api",
             description: "Deploy Server"
+        },
+        {
+            url: "http://localhost:3000/api",
+            description: "Local Server"
         },
     ],
     components: {
