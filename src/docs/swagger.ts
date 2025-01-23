@@ -8,7 +8,7 @@ const doc = {
     },
     servers: [
         {
-            url: "https://subs.haikaldev.my.id/api",
+            url: "https://be.subs.haikaldev.my.id/api",
             description: "Deploy Server"
         },
         {
