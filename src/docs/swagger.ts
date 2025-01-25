@@ -37,7 +37,29 @@ const doc = {
             },
             ActivationRequest: {
                 code: "abcdef",
-            }
+            },
+            CreateCategoryRequest: {
+                name: "Kategori Baru",
+                description: "Deskripsi Kategori Baru",
+                icon: "icon url",
+            },
+            CreateEventsRequest: {
+                name: "name",
+                banner: "image url",
+                category: "category ObjectID",
+                description: "description",
+                startDate: "yyyy-mm-dd hh:mm:ss",
+                endDate: "yyyy-mm-dd hh:mm:ss",
+                location: {
+                    region: "region id",
+                    coordinates: [0, 0]
+                },
+                isOnline: false,
+                isFeatured: true,
+            },
+            RemoveMediaRequest: {
+                fileUrl: "",
+            },
         },
     },
 };
