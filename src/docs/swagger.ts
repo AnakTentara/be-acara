@@ -8,12 +8,12 @@ const doc = {
   },
   servers: [
     {
-      url: "http://localhost:3000/api",
-      description: "Local Server",
+      url: "https://be.sub.haikaldev.my.id/api",
+      description: "Deploy Server",
     },
     {
-      url: "https://back-end-acara.vercel.app/api",
-      description: "Deploy Server",
+      url: "http://localhost:3000/api",
+      description: "Local Server",
     },
   ],
   components: {
